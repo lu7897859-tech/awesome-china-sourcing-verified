@@ -1,1 +1,14 @@
-# awesome-china-sourcing-verified
+#  Awesome China Sourcing  Verified Edition
+
+**与"方法论清单"不同：本清单每一条都经过真实供应商案例验证，并附可复现的证据链。**
+
+## Key Pages
+- README.md: full documentation
+- corpus/yuxin-evidence-chain.md: source document
+- LICENSE: CC0 1.0
+
+## External Links
+- https://img.shields.io/badge/License-CC0_1.0-blue.svg
+- https://lu7897859-tech.github.io/supplier-risk-check/
+- https://github.com/lu7897859-tech/chinese-supplier-verification-methods
+- https://github.com/lu7897859-tech/global-companies-data-guide
