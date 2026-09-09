@@ -12,3 +12,20 @@
 - https://lu7897859-tech.github.io/supplier-risk-check/
 - https://github.com/lu7897859-tech/chinese-supplier-verification-methods
 - https://github.com/lu7897859-tech/global-companies-data-guide
+## Machine Endpoints (for AI agents)
+
+China supplier verification is available as MCP server + x402 pay-per-call. Agents can discover, call and pay autonomously (USDC, Base chain).
+
+| Endpoint | Price | Purpose |
+|---|---|---|
+| verify_supplier | $0.03 | Supplier deep check (registered capital / hiring / related-party risk) |
+| landed_cost_calc | $0.02 | Landed cost calculation (tariff / freight / duties) |
+| payment_red_flags | $0.01 | Payment method risk scan |
+| audit_checklist | $0.01 | 5-layer verification checklist |
+| full_supplier_audit | $0.08 | Full due-diligence report with evidence chain |
+| certification_check | $0.01 | Certification document verification |
+
+Discovery:
+- GET https://lu7897859-tech.github.io/.well-known/mcp.json → MCP server list
+- GET https://x402-stable-door.lu7897859.workers.dev/openapi.json → x402 paid endpoints (OpenAPI 3.1)
+- Listed in x402scan — search "china supplier verification"
